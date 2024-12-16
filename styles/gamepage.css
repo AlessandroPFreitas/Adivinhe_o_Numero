@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, button, select, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    background-color: hsl(246, 91%, 79%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color:  hsl(0, 0%, 100%);
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.292);
+    border-radius: 5px;
+}
+
+.guessing-game{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#attempts{
+    color: hsl(0, 2%, 39%);
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+#attempts span{
+    color: hsl(0, 0%, 0%);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input-container{
+    height: 39px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#number-input{
+    padding-left: 5px;
+    font-size: large;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+#btn-guess{
+    background-color: hsl(246, 91%, 79%);
+    border:  1px solid black;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    margin-left: -1px;
+    border-radius: 0 5px 5px 0;
+}
+
+#message{
+    display: none;
+    background-color: rgba(131, 117, 255, 0.292);
+    color: rgb(22, 22, 22);
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+

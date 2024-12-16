@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/gamepage.css">
+    <script defer src="/scripts/app.js"></script>
+    <title>Adivinhe o numero</title>
+</head>
+<body>
+    <section class="container">
+    <div class="guessing-game">
+        <h1 id="title-text">ADIVINHE O NUMERO</h1>
+        <p id="attempts">TENTATIVAS:  <span id="attemptsNumber">0</span></p>
+        <div class="input-container">
+            <input type="text"  id="number-input" placeholder="Digite um numero de 1 a 50">
+            <button id="btn-guess"  onclick="guessingNNumber()" >Chutar</button>
+        </div>
+        <p id="message"></p>   
+    </div>
+    </section>
+</body>
+</html>
